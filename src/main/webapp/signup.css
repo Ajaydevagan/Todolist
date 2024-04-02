@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+div{
+	padding-left: 450px;
+	padding-top: 200px;
+}
+form{
+	border: 1px solid black;
+	background-color: bisque;
+	padding: 30px;
+	width: 400px;
+	border-radius: 20px;
+	text-align: center;
+}
+#submit{
+	background-color: lightsteelblue;
+	padding: 30px;
+}
