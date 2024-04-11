@@ -1,5 +1,9 @@
 @charset "ISO-8859-1";
 div{
+	padding-left: 450px;
+	padding-top: 200px;
+}
+#div{
 	background-image: url("https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867759_640.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -10,12 +14,16 @@ form{
 	background-color: rgba(0, 0, 0,0.1);
 	backdrop-filter: blur(2px);
 	padding: 30px;
-	width: 400px;
+	width: 380px;
 	border-radius: 20px;
 	text-align: center;
+	padding-top: 50px;
 	box-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
 #submit{
 	background-color: lightsteelblue;
 	padding: 30px;
+}
+#span{
+	color: red;
 }

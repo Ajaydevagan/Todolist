@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+#main{
+	display: flex;
+	gap:40px;
+	height: 230px;
+	padding: 30px;
+}
+#main_right{
+	font-family: sans-serif;
+}
+#mainbody{
+	font-family: sans-serif;
+	display: grid;
+	justify-content: center;
+}
+th,tr,td{
+	border:1px solid black;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+}
+th,td{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+table{
+	border-collapse: collapse;
+	box-shadow: 5px 5px 1px black;
+	background-color: rgb(0,0,0);
+}
+td:hover {
+	background-color: graytext;
+	color: black;
+}
+th:hover{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+}
+body{
+	background-color: bisque;
+}
+

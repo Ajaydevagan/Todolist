@@ -3,14 +3,17 @@ div{
 	background-image: url("https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867759_640.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 35vh;
+	padding-top: 200px;
 	height: 62vh;
+	display: grid;
+	justify-content: center;
 }
 form{
 	background-color: rgba(0, 0, 0,0.1);
 	backdrop-filter: blur(2px);
 	padding: 30px;
 	width: 400px;
+	height: 220px;
 	border-radius: 20px;
 	text-align: center;
 	box-shadow: 0px 0px 40px rgb(0, 0, 0);
@@ -19,3 +22,7 @@ form{
 	background-color: lightsteelblue;
 	padding: 30px;
 }
+body{
+	opacity: 0.1px;
+}
+
